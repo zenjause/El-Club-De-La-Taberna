@@ -1,0 +1,163 @@
+*{
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+}
+:root{
+    --verde-azul:#008193;
+    --amarillo-naranja: #F8AF40;
+    --black: #232020;
+    --white:#FFF;
+    --naranja-rojo: #EB5D2C;
+}
+html{
+    font-size: 62.5%;
+    font-family: 'DM Sans', sans-serif;
+}
+
+header{
+    position: relative;
+    display: grid; 
+    grid-template-columns: 3fr;
+    grid-template-rows: 3;
+    
+    width: 100%;
+    min-width: 320px;
+    height: 334px;
+    text-align: center;
+    background-color: #EBEAEA;
+}
+
+header img {
+    width: 200px;
+    height: 100px;
+    margin: 25px auto;
+    align-items: center;
+   
+}
+.header-title-container{
+    width: 90%;
+    min-width: 288px;
+    max-width: 900px;
+    height:  218px;
+    margin-top: 20px;
+    text-align: center;
+}
+.header-title-container h1 {
+    font-size: 2.0rem;
+    font-weight: bold;
+    line-height: 2.6rem;
+    color: black ;
+}
+
+.header-title-container p {
+    margin-top: 40px;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+}
+
+.header-title-container .header-button{
+    position: absolute;
+    left: calc(50% - 118px);
+    top: 270px;
+    display: block;
+    margin-top: 40px;
+    padding: 15px;
+    width: 229px;
+    height: 48px;
+    background-color: #FFF;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(89, 73, 30, 0.16);
+    font-size: 1.4rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: var(--verde-azul);
+}
+
+.header-button span{
+    display: inline-block;
+    width: 19px;
+    height: 19px;
+    margin-left: 5px;
+    background-image: url('./assets/bx-down-arrow-alt.svg')
+}
+main{
+    width: 100%;
+    height: auto;
+    background-color:var(--black);
+}
+.combos{
+    width: 100%;
+    height: auto;
+    padding:  0 50px 40px;
+    
+}
+/*.combo-title{
+    width: 100%;
+    min-width: 288px;
+    max-width: 900px;
+    margin: 0 auto;
+    color: var(--white);
+}
+
+.combos .combo-title .h2{
+   
+   width: 190px;
+   height: 30px;
+   margin: 0 auto;
+}*/
+
+
+.grid-container{
+    max-width: 980px;
+    margin: auto;
+}
+
+main .combos h2{
+    padding-top: 40px;
+    color: #F8AF40;
+    padding-bottom: 20px;
+    text-align: start;
+    font-weight: bold;
+    font-size: 3rem;
+    
+}
+.post-container .card-container{
+    margin-top: 10px;
+    background-color: var(--white);
+    display: inline-block;
+    padding: 2px 2px;
+    border-radius: 5px;
+    margin-bottom: 35px;
+    image-rendering: auto;
+    min-width: 220px;
+    max-width: 220px;
+}
+
+main .combos .grid-container .post-container .title-descrition{
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: black;
+}
+main .combos .grid-container .post-container .title-descrition .precio{
+    
+    color: red;
+}
+
+
+main .combos .grid-container .post-container .text-description
+    {
+    margin-top: 15px;
+    background-color: var(--white);
+    
+    
+}
+main .combos .post-container img{
+    width: 220px;
+    height: 200px;
+    border-radius: 20px;
+    
+    
+    
+}
