@@ -22,25 +22,25 @@ header{
     grid-template-rows: 3;
     
     width: 100%;
-    min-width: 320px;
-    height: 334px;
+    min-width: 32rem;
+    height: 33.4rem;
     text-align: center;
     background-color: #EBEAEA;
 }
 
 header img {
-    width: 200px;
-    height: 100px;
-    margin: 25px auto;
+    width: 20rem;
+    height: 10rem;
+    margin: 2.5rem auto;
     align-items: center;
    
 }
 .header-title-container{
     width: 90%;
-    min-width: 288px;
-    max-width: 900px;
-    height:  218px;
-    margin-top: 20px;
+    min-width: 28.8rem;
+    margin-left: 1.5rem;
+    height:  21.8rem;
+    margin-top: 2rem;
     text-align: center;
 }
 .header-title-container h1 {
@@ -48,10 +48,11 @@ header img {
     font-weight: bold;
     line-height: 2.6rem;
     color: black ;
+    text-align: center;
 }
 
 .header-title-container p {
-    margin-top: 40px;
+    margin-top: 4rem;
     font-size: 1.4rem;
     font-weight: 500;
     line-height: 1.8rem;
@@ -60,12 +61,12 @@ header img {
 .header-title-container .header-button{
     position: absolute;
     left: calc(50% - 118px);
-    top: 270px;
+    top: 27rem;
     display: block;
-    margin-top: 40px;
-    padding: 15px;
-    width: 229px;
-    height: 48px;
+    margin-top: 4rem;
+    padding: 1.5rem;
+    width: 22.9rem;
+    height: 4.8rem;
     background-color: #FFF;
     border-radius: 10px;
     box-shadow: 0px 4px 8px rgba(89, 73, 30, 0.16);
@@ -77,9 +78,9 @@ header img {
 
 .header-button span{
     display: inline-block;
-    width: 19px;
-    height: 19px;
-    margin-left: 5px;
+    width: 1.9rem;
+    height: 1.9rem;
+    margin-left: 0.5rem;
     background-image: url('./assets/bx-down-arrow-alt.svg')
 }
 main{
@@ -87,52 +88,44 @@ main{
     height: auto;
     background-color:var(--black);
 }
-.combos{
-    width: 100%;
-    height: auto;
-    padding:  0 50px 40px;
-    
-}
-/*.combo-title{
-    width: 100%;
-    min-width: 288px;
-    max-width: 900px;
-    margin: 0 auto;
-    color: var(--white);
-}
-
-.combos .combo-title .h2{
-   
-   width: 190px;
-   height: 30px;
-   margin: 0 auto;
-}*/
 
 
 .grid-container{
-    max-width: 980px;
-    margin: auto;
+    display: grid;
+    grid-auto-rows: 28rem;
+    grid-template-columns: repeat(auto-fill, minmax(15rem,1fr));
+    gap: 1rem;
+    align-content: space-around;
+    justify-content: center;
+    align-items: start;
+    justify-items: start;
+    padding: 5px;
 }
 
 main .combos h2{
-    padding-top: 40px;
+    padding-top: 4rem;
     color: #F8AF40;
-    padding-bottom: 20px;
+    padding-bottom: 2rem;
     text-align: start;
     font-weight: bold;
     font-size: 3rem;
+    margin-left: 4rem;
+    
+}
+.post-container{
+   width: 50%;
     
 }
 .post-container .card-container{
-    margin-top: 10px;
+    margin-top: 1rem;
     background-color: var(--white);
-    display: inline-block;
     padding: 2px 2px;
     border-radius: 5px;
-    margin-bottom: 35px;
+    margin-bottom: 3.5rem;
     image-rendering: auto;
-    min-width: 220px;
-    max-width: 220px;
+    width: 15rem;
+    min-height: 10.7rem;
+    
 }
 
 main .combos .grid-container .post-container .title-descrition{
@@ -152,12 +145,10 @@ main .combos .grid-container .post-container .text-description
     background-color: var(--white);
     
     
+    
 }
 main .combos .post-container img{
-    width: 220px;
-    height: 200px;
+    width: 15rem;
+    height: 15rem;
     border-radius: 20px;
-    
-    
-    
 }
