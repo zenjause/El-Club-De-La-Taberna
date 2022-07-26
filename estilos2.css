@@ -17,84 +17,16 @@ html{
     font-family: 'DM Sans', sans-serif;
 }
 
-header{
-    position: relative;
-    display: grid; 
-    grid-template-columns: 3fr;
-    grid-template-rows: 3;
-    
-    width: 100%;
-    min-width: 32rem;
-    height: 33.4rem;
-    text-align: center;
-    background-color: #EBEAEA;
-}
-
-header img {
-    width: 20rem;
-    height: 10rem;
-    margin: 2.5rem auto;
-    align-items: center;
-   
-}
-.header-title-container{
-    width: 90%;
-    min-width: 28.8rem;
-    margin-left: 1.5rem;
-    height:  21.8rem;
-    margin-top: 2rem;
-    text-align: center;
-}
-.header-title-container h1 {
-    font-size: 2.0rem;
-    font-weight: bold;
-    line-height: 2.6rem;
-    color: black ;
-    text-align: center;
-}
-
-.header-title-container p {
-    margin-top: 4rem;
-    font-size: 1.4rem;
-    font-weight: 500;
-    line-height: 1.8rem;
-}
-
-.header-title-container .header-button{
-    position: absolute;
-    left: calc(50% - 118px);
-    top: 27rem;
-    display: block;
-    margin-top: 4rem;
-    padding: 1.5rem;
-    width: 22.9rem;
-    height: 4.8rem;
-    background-color: #FFF;
-    border-radius: 10px;
-    box-shadow: 0px 4px 8px rgba(89, 73, 30, 0.16);
-    font-size: 1.4rem;
-    font-weight: bold;
-    text-decoration: none;
-    color: var(--verde-azul);
-}
-
-.header-button span{
-    display: inline-block;
-    width: 1.9rem;
-    height: 1.9rem;
-    margin-left: 0.5rem;
-    background-image: url('./assets/bx-down-arrow-alt.svg')
-}
 main{
     width: 100%;
     height: auto;
-    background-color:var(--black);
+    background-color: #EBEAEA;
 }
 
 
 .grid-container{
     display: grid;
-    grid-auto-rows: 28rem;
+    grid-auto-rows: 23rem;
     grid-template-columns: repeat(auto-fill, minmax(15rem,1fr));
     gap: 1rem;
     align-content: space-around;
@@ -102,7 +34,9 @@ main{
     align-items: start;
     justify-items: start;
     padding: 5px;
+   
 }
+
 
 main .combos h2{
     padding-top: 4rem;
@@ -121,37 +55,51 @@ justify-items: center;
 gap: 5px;
 margin-right: 1.5rem;
 
-}
-.combos .enlaces .licores{
-text-decoration: none;
-color: var(--white);
-font-size: 1.5rem;
-margin-top: -5rem;
-font-weight: bold;
+
 
 }
-
 
 .combos .enlaces .cerveza{
     text-decoration: none;
     font-size: 1.5rem;
-    color:var(--white);
+    color:var(--amarillo-naranja);
     margin-top: -5rem;
     font-weight: bold;
+    background-color: var(--white);
+    padding: 2px;
+    height: 2.5rem;
+    border-radius: 5px;
+    
+    
+}
+
+.combos .back{
+    text-decoration: none;
+    font-size: 1.5rem;
+    color:var(--amarillo-naranja);
+    margin-top: -5rem;
+    font-weight: bold;
+    margin-right: 5px;
+    background-color: var(--white);
+    padding: 2px;
+    height: 2.5rem;
+    border-radius: 5px;
 }
 .post-container{
    width: 50%;
+  
     
 }
 .post-container .card-container{
-    margin-top: 1rem;
+    margin-top: .5rem;
     background-color: var(--white);
     padding: 2px 2px;
-    border-radius: 5px;
+    border-radius: 10px;
     margin-bottom: 3.5rem;
     image-rendering: auto;
     width: 15rem;
-    min-height: 10.7rem;
+    min-height: 5.4rem;
+    
     
 }
 
@@ -178,4 +126,6 @@ main .combos .post-container img{
     width: 15rem;
     height: 15rem;
     border-radius: 20px;
+    background-color: var(--white);
+    object-fit: contain;
 }
