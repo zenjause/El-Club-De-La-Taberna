@@ -38,33 +38,35 @@ main{
 }
 
 
-main .combos h2{
+
+.combos .enlaces{
+display: flex;
+justify-content: end;
+justify-items: center;
+align-items: center;
+gap: 5px;
+margin-right: 1.5rem;
+
+}
+.index{
     padding-top: 4rem;
     color: #F8AF40;
     padding-bottom: 2rem;
     text-align: start;
     font-weight: bold;
     font-size: 3rem;
-    margin-left: 3rem;
-    
+    margin-left: 2rem;
+    text-decoration: none;
 }
-.combos .enlaces{
-display: flex;
-justify-content: end;
-justify-items: center;
-gap: 5px;
-margin-right: 1.5rem;
-
-
-
-
+.combos .index{
+    margin: auto;
 }
 
 .combos .enlaces .cerveza{
     text-decoration: none;
     font-size: 1.5rem;
-    color:var(--amarillo-naranja);
-    margin-top: -5rem;
+    color:var(--verde-azul);
+    margin-top: 2rem;
     font-weight: bold;
     background-color: var(--white);
     padding: 2px;
@@ -78,8 +80,8 @@ margin-right: 1.5rem;
 .combos .back{
     text-decoration: none;
     font-size: 1.5rem;
-    color:var(--amarillo-naranja);
-    margin-top: -5rem;
+    color:var(--verde-azul);
+    margin-top: 2rem;
     font-weight: bold;
     margin-right: 5px;
     background-color: var(--white);

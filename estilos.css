@@ -105,7 +105,7 @@ main{
     padding: 5px;
 }
 
-main .combos h2{
+/*main .combos h2{
     padding-top: 4rem;
     color: #F8AF40;
     padding-bottom: 2rem;
@@ -114,26 +114,42 @@ main .combos h2{
     font-size: 3rem;
     margin-left: 2rem;
     
+}*/
+.index{
+    padding-top: 4rem;
+    color: #F8AF40;
+    padding-bottom: 2rem;
+    text-align: start;
+    font-weight: bold;
+    font-size: 3rem;
+    margin-left: 2rem;
+    text-decoration: none;
 }
+
+
 .combos .enlaces{
 display: flex;
 justify-content: end;
 justify-items: center;
+align-items: center;
 gap: 5px;
 margin-right: 1.5rem;
 
+}
+.combos .index{
+    margin: auto;
 }
 .combos .enlaces .licores{
 text-decoration: none;
 color: var(--verde-azul);
 font-size: 1.5rem;
-margin-top: -5rem;
 font-weight: bold;
 background-color: var(--white);
 height: fit-content; 
 padding: .4rem;
 border-radius: .5rem;
 box-shadow: 0px 4px 8px rgba(89, 73, 30, 0.16);
+margin-top: 2rem;
 
 }
 
@@ -142,13 +158,13 @@ box-shadow: 0px 4px 8px rgba(89, 73, 30, 0.16);
     text-decoration: none;
     font-size: 1.5rem;
     color:var(--verde-azul);
-    margin-top: -5rem;
     font-weight: bold;
     background-color: var(--white);
     height: fit-content; 
     padding: .4rem;
     border-radius: .5rem;
     box-shadow: 0px 4px 8px rgba(89, 73, 30, 0.16);
+    margin-top: 2rem;
 }
 .post-container{
    width: 50%;
