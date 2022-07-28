@@ -89,15 +89,22 @@ header img {
 }
 .indicator{
    
-    font-size: 1.1rem;
+    font-size: 1.4rem;
     margin-top: 3rem;
-    width: 15rem;
+    
     text-decoration: none;
     background-color: var(--white);border-radius: .5rem;
     padding: .5rem;
     box-shadow: 0px 4px 8px rgba(89, 73, 30, 0.16);
     color: var(--verde-azul);
     font-weight: bold;
+}
+.indicator span{
+    display: inline-block;
+    width: 2rem;
+    height: 1.9rem;
+    
+    background-image: url('./assets/bx-down-arrow-alt.svg');
 }
 
 
